@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C78BA11017728B3A000FBD87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA10F17728B3A000FBD87 /* UIKit.framework */; };
+		C78BA11217728B3A000FBD87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA11117728B3A000FBD87 /* Foundation.framework */; };
+		C78BA11417728B3A000FBD87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA11317728B3A000FBD87 /* CoreGraphics.framework */; };
+		C78BA11A17728B3A000FBD87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C78BA11817728B3A000FBD87 /* InfoPlist.strings */; };
+		C78BA11C17728B3A000FBD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C78BA11B17728B3A000FBD87 /* main.m */; };
+		C78BA12017728B3A000FBD87 /* QCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C78BA11F17728B3A000FBD87 /* QCAppDelegate.m */; };
+		C78BA12217728B3A000FBD87 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C78BA12117728B3A000FBD87 /* Default.png */; };
+		C78BA12417728B3A000FBD87 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C78BA12317728B3A000FBD87 /* Default@2x.png */; };
+		C78BA12617728B3A000FBD87 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C78BA12517728B3A000FBD87 /* Default-568h@2x.png */; };
+		C78BA12917728B3A000FBD87 /* QCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78BA12817728B3A000FBD87 /* QCViewController.m */; };
+		C78BA13717738971000FBD87 /* QCImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78BA13517738971000FBD87 /* QCImagePickerViewController.m */; };
+		C78BA13817738971000FBD87 /* QCImagePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C78BA13617738971000FBD87 /* QCImagePickerViewController.xib */; };
+		C78BA13A17738FBC000FBD87 /* shrimp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C78BA13917738FBC000FBD87 /* shrimp.jpg */; };
+		C78BA13F17739884000FBD87 /* QCCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78BA13D17739884000FBD87 /* QCCollectionViewController.m */; };
+		C78BA14017739884000FBD87 /* QCCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C78BA13E17739884000FBD87 /* QCCollectionViewController.xib */; };
+		C78BA14217739AFF000FBD87 /* eagle.png in Resources */ = {isa = PBXBuildFile; fileRef = C78BA14117739AFF000FBD87 /* eagle.png */; };
+		C78BA14617739E51000FBD87 /* QCCustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C78BA14517739E51000FBD87 /* QCCustomCollectionViewCell.m */; };
+		C78BA14C1773A1F5000FBD87 /* QCCustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C78BA14B1773A1F5000FBD87 /* QCCustomCollectionViewCell.xib */; };
+		C7E59E2917B5F0C2006D0203 /* QCLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E59E2717B5F0C2006D0203 /* QCLabelViewController.m */; };
+		C7E59E2A17B5F0C2006D0203 /* QCLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7E59E2817B5F0C2006D0203 /* QCLabelViewController.xib */; };
+		C7E59E2F17B5F46F006D0203 /* QCButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E59E2D17B5F46F006D0203 /* QCButtonViewController.m */; };
+		C7E59E3017B5F46F006D0203 /* QCButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7E59E2E17B5F46F006D0203 /* QCButtonViewController.xib */; };
+		C7E59E3517B5F99A006D0203 /* QCTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E59E3317B5F99A006D0203 /* QCTextFieldViewController.m */; };
+		C7E59E3617B5F99A006D0203 /* QCTextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7E59E3417B5F99A006D0203 /* QCTextFieldViewController.xib */; };
+		C7E59E3B17B5FBD4006D0203 /* QCBarButtonItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E59E3917B5FBD4006D0203 /* QCBarButtonItemViewController.m */; };
+		C7E59E3C17B5FBD4006D0203 /* QCBarButtonItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7E59E3A17B5FBD4006D0203 /* QCBarButtonItemViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C78BA10C17728B3A000FBD87 /* ObjectLibraryMain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectLibraryMain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78BA10F17728B3A000FBD87 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C78BA11117728B3A000FBD87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C78BA11317728B3A000FBD87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C78BA11717728B3A000FBD87 /* ObjectLibraryMain-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectLibraryMain-Info.plist"; sourceTree = "<group>"; };
+		C78BA11917728B3A000FBD87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C78BA11B17728B3A000FBD87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C78BA11D17728B3A000FBD87 /* ObjectLibraryMain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectLibraryMain-Prefix.pch"; sourceTree = "<group>"; };
+		C78BA11E17728B3A000FBD87 /* QCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCAppDelegate.h; sourceTree = "<group>"; };
+		C78BA11F17728B3A000FBD87 /* QCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCAppDelegate.m; sourceTree = "<group>"; };
+		C78BA12117728B3A000FBD87 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C78BA12317728B3A000FBD87 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C78BA12517728B3A000FBD87 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C78BA12717728B3A000FBD87 /* QCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCViewController.h; sourceTree = "<group>"; };
+		C78BA12817728B3A000FBD87 /* QCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCViewController.m; sourceTree = "<group>"; };
+		C78BA13417738971000FBD87 /* QCImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCImagePickerViewController.h; sourceTree = "<group>"; };
+		C78BA13517738971000FBD87 /* QCImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCImagePickerViewController.m; sourceTree = "<group>"; };
+		C78BA13617738971000FBD87 /* QCImagePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCImagePickerViewController.xib; sourceTree = "<group>"; };
+		C78BA13917738FBC000FBD87 /* shrimp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shrimp.jpg; sourceTree = "<group>"; };
+		C78BA13C17739884000FBD87 /* QCCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCCollectionViewController.h; sourceTree = "<group>"; };
+		C78BA13D17739884000FBD87 /* QCCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCCollectionViewController.m; sourceTree = "<group>"; };
+		C78BA13E17739884000FBD87 /* QCCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCCollectionViewController.xib; sourceTree = "<group>"; };
+		C78BA14117739AFF000FBD87 /* eagle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eagle.png; sourceTree = "<group>"; };
+		C78BA14417739E51000FBD87 /* QCCustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCCustomCollectionViewCell.h; sourceTree = "<group>"; };
+		C78BA14517739E51000FBD87 /* QCCustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCCustomCollectionViewCell.m; sourceTree = "<group>"; };
+		C78BA14B1773A1F5000FBD87 /* QCCustomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCCustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		C7E59E2617B5F0C2006D0203 /* QCLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCLabelViewController.h; sourceTree = "<group>"; };
+		C7E59E2717B5F0C2006D0203 /* QCLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCLabelViewController.m; sourceTree = "<group>"; };
+		C7E59E2817B5F0C2006D0203 /* QCLabelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCLabelViewController.xib; sourceTree = "<group>"; };
+		C7E59E2C17B5F46F006D0203 /* QCButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCButtonViewController.h; sourceTree = "<group>"; };
+		C7E59E2D17B5F46F006D0203 /* QCButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCButtonViewController.m; sourceTree = "<group>"; };
+		C7E59E2E17B5F46F006D0203 /* QCButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCButtonViewController.xib; sourceTree = "<group>"; };
+		C7E59E3217B5F99A006D0203 /* QCTextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCTextFieldViewController.h; sourceTree = "<group>"; };
+		C7E59E3317B5F99A006D0203 /* QCTextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCTextFieldViewController.m; sourceTree = "<group>"; };
+		C7E59E3417B5F99A006D0203 /* QCTextFieldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCTextFieldViewController.xib; sourceTree = "<group>"; };
+		C7E59E3817B5FBD4006D0203 /* QCBarButtonItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCBarButtonItemViewController.h; sourceTree = "<group>"; };
+		C7E59E3917B5FBD4006D0203 /* QCBarButtonItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCBarButtonItemViewController.m; sourceTree = "<group>"; };
+		C7E59E3A17B5FBD4006D0203 /* QCBarButtonItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCBarButtonItemViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C78BA10917728B3A000FBD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78BA11017728B3A000FBD87 /* UIKit.framework in Frameworks */,
+				C78BA11217728B3A000FBD87 /* Foundation.framework in Frameworks */,
+				C78BA11417728B3A000FBD87 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C78BA10317728B3A000FBD87 = {
+			isa = PBXGroup;
+			children = (
+				C78BA11517728B3A000FBD87 /* ObjectLibraryMain */,
+				C78BA10E17728B3A000FBD87 /* Frameworks */,
+				C78BA10D17728B3A000FBD87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C78BA10D17728B3A000FBD87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C78BA10C17728B3A000FBD87 /* ObjectLibraryMain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C78BA10E17728B3A000FBD87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C78BA10F17728B3A000FBD87 /* UIKit.framework */,
+				C78BA11117728B3A000FBD87 /* Foundation.framework */,
+				C78BA11317728B3A000FBD87 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C78BA11517728B3A000FBD87 /* ObjectLibraryMain */ = {
+			isa = PBXGroup;
+			children = (
+				C78BA13217735C8F000FBD87 /* Initialization */,
+				C78BA11E17728B3A000FBD87 /* QCAppDelegate.h */,
+				C78BA11F17728B3A000FBD87 /* QCAppDelegate.m */,
+				C78BA12717728B3A000FBD87 /* QCViewController.h */,
+				C78BA12817728B3A000FBD87 /* QCViewController.m */,
+				C7E59E2517B5F03E006D0203 /* Label */,
+				C7E59E2B17B5F3E5006D0203 /* Button  */,
+				C7E59E3117B5F96E006D0203 /* TextField */,
+				C7E59E3717B5FB68006D0203 /* BarButtonItem */,
+				C78BA13317735CA2000FBD87 /* UIImagePicker */,
+				C78BA13B177397F7000FBD87 /* UICollectionView */,
+				C78BA11617728B3A000FBD87 /* Supporting Files */,
+			);
+			path = ObjectLibraryMain;
+			sourceTree = "<group>";
+		};
+		C78BA11617728B3A000FBD87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C78BA14117739AFF000FBD87 /* eagle.png */,
+				C78BA13917738FBC000FBD87 /* shrimp.jpg */,
+				C78BA11717728B3A000FBD87 /* ObjectLibraryMain-Info.plist */,
+				C78BA11817728B3A000FBD87 /* InfoPlist.strings */,
+				C78BA11B17728B3A000FBD87 /* main.m */,
+				C78BA11D17728B3A000FBD87 /* ObjectLibraryMain-Prefix.pch */,
+				C78BA12117728B3A000FBD87 /* Default.png */,
+				C78BA12317728B3A000FBD87 /* Default@2x.png */,
+				C78BA12517728B3A000FBD87 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C78BA13217735C8F000FBD87 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Initialization;
+			sourceTree = "<group>";
+		};
+		C78BA13317735CA2000FBD87 /* UIImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				C78BA13417738971000FBD87 /* QCImagePickerViewController.h */,
+				C78BA13517738971000FBD87 /* QCImagePickerViewController.m */,
+				C78BA13617738971000FBD87 /* QCImagePickerViewController.xib */,
+			);
+			name = UIImagePicker;
+			sourceTree = "<group>";
+		};
+		C78BA13B177397F7000FBD87 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C78BA13C17739884000FBD87 /* QCCollectionViewController.h */,
+				C78BA13D17739884000FBD87 /* QCCollectionViewController.m */,
+				C78BA13E17739884000FBD87 /* QCCollectionViewController.xib */,
+				C78BA14317739DD7000FBD87 /* CustomCollectionViewCell */,
+			);
+			name = UICollectionView;
+			sourceTree = "<group>";
+		};
+		C78BA14317739DD7000FBD87 /* CustomCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C78BA14417739E51000FBD87 /* QCCustomCollectionViewCell.h */,
+				C78BA14517739E51000FBD87 /* QCCustomCollectionViewCell.m */,
+				C78BA14B1773A1F5000FBD87 /* QCCustomCollectionViewCell.xib */,
+			);
+			name = CustomCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		C7E59E2517B5F03E006D0203 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				C7E59E2617B5F0C2006D0203 /* QCLabelViewController.h */,
+				C7E59E2717B5F0C2006D0203 /* QCLabelViewController.m */,
+				C7E59E2817B5F0C2006D0203 /* QCLabelViewController.xib */,
+			);
+			name = Label;
+			sourceTree = "<group>";
+		};
+		C7E59E2B17B5F3E5006D0203 /* Button  */ = {
+			isa = PBXGroup;
+			children = (
+				C7E59E2C17B5F46F006D0203 /* QCButtonViewController.h */,
+				C7E59E2D17B5F46F006D0203 /* QCButtonViewController.m */,
+				C7E59E2E17B5F46F006D0203 /* QCButtonViewController.xib */,
+			);
+			name = "Button ";
+			sourceTree = "<group>";
+		};
+		C7E59E3117B5F96E006D0203 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				C7E59E3217B5F99A006D0203 /* QCTextFieldViewController.h */,
+				C7E59E3317B5F99A006D0203 /* QCTextFieldViewController.m */,
+				C7E59E3417B5F99A006D0203 /* QCTextFieldViewController.xib */,
+			);
+			name = TextField;
+			sourceTree = "<group>";
+		};
+		C7E59E3717B5FB68006D0203 /* BarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				C7E59E3817B5FBD4006D0203 /* QCBarButtonItemViewController.h */,
+				C7E59E3917B5FBD4006D0203 /* QCBarButtonItemViewController.m */,
+				C7E59E3A17B5FBD4006D0203 /* QCBarButtonItemViewController.xib */,
+			);
+			name = BarButtonItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C78BA10B17728B3A000FBD87 /* ObjectLibraryMain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78BA12F17728B3A000FBD87 /* Build configuration list for PBXNativeTarget "ObjectLibraryMain" */;
+			buildPhases = (
+				C78BA10817728B3A000FBD87 /* Sources */,
+				C78BA10917728B3A000FBD87 /* Frameworks */,
+				C78BA10A17728B3A000FBD87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectLibraryMain;
+			productName = ObjectLibraryMain;
+			productReference = C78BA10C17728B3A000FBD87 /* ObjectLibraryMain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C78BA10417728B3A000FBD87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Access;
+			};
+			buildConfigurationList = C78BA10717728B3A000FBD87 /* Build configuration list for PBXProject "ObjectLibraryMain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C78BA10317728B3A000FBD87;
+			productRefGroup = C78BA10D17728B3A000FBD87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C78BA10B17728B3A000FBD87 /* ObjectLibraryMain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C78BA10A17728B3A000FBD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78BA11A17728B3A000FBD87 /* InfoPlist.strings in Resources */,
+				C78BA12217728B3A000FBD87 /* Default.png in Resources */,
+				C78BA12417728B3A000FBD87 /* Default@2x.png in Resources */,
+				C78BA12617728B3A000FBD87 /* Default-568h@2x.png in Resources */,
+				C78BA13817738971000FBD87 /* QCImagePickerViewController.xib in Resources */,
+				C78BA13A17738FBC000FBD87 /* shrimp.jpg in Resources */,
+				C78BA14017739884000FBD87 /* QCCollectionViewController.xib in Resources */,
+				C78BA14217739AFF000FBD87 /* eagle.png in Resources */,
+				C78BA14C1773A1F5000FBD87 /* QCCustomCollectionViewCell.xib in Resources */,
+				C7E59E2A17B5F0C2006D0203 /* QCLabelViewController.xib in Resources */,
+				C7E59E3017B5F46F006D0203 /* QCButtonViewController.xib in Resources */,
+				C7E59E3617B5F99A006D0203 /* QCTextFieldViewController.xib in Resources */,
+				C7E59E3C17B5FBD4006D0203 /* QCBarButtonItemViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C78BA10817728B3A000FBD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78BA11C17728B3A000FBD87 /* main.m in Sources */,
+				C78BA12017728B3A000FBD87 /* QCAppDelegate.m in Sources */,
+				C78BA12917728B3A000FBD87 /* QCViewController.m in Sources */,
+				C78BA13717738971000FBD87 /* QCImagePickerViewController.m in Sources */,
+				C78BA13F17739884000FBD87 /* QCCollectionViewController.m in Sources */,
+				C78BA14617739E51000FBD87 /* QCCustomCollectionViewCell.m in Sources */,
+				C7E59E2917B5F0C2006D0203 /* QCLabelViewController.m in Sources */,
+				C7E59E2F17B5F46F006D0203 /* QCButtonViewController.m in Sources */,
+				C7E59E3517B5F99A006D0203 /* QCTextFieldViewController.m in Sources */,
+				C7E59E3B17B5FBD4006D0203 /* QCBarButtonItemViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C78BA11817728B3A000FBD87 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C78BA11917728B3A000FBD87 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C78BA12D17728B3A000FBD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C78BA12E17728B3A000FBD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C78BA13017728B3A000FBD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectLibraryMain/ObjectLibraryMain-Prefix.pch";
+				INFOPLIST_FILE = "ObjectLibraryMain/ObjectLibraryMain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C78BA13117728B3A000FBD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectLibraryMain/ObjectLibraryMain-Prefix.pch";
+				INFOPLIST_FILE = "ObjectLibraryMain/ObjectLibraryMain-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C78BA10717728B3A000FBD87 /* Build configuration list for PBXProject "ObjectLibraryMain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78BA12D17728B3A000FBD87 /* Debug */,
+				C78BA12E17728B3A000FBD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78BA12F17728B3A000FBD87 /* Build configuration list for PBXNativeTarget "ObjectLibraryMain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78BA13017728B3A000FBD87 /* Debug */,
+				C78BA13117728B3A000FBD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C78BA10417728B3A000FBD87 /* Project object */;
+}

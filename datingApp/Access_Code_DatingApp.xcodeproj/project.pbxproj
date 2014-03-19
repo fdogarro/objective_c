@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C78BA1891775F5D5000FBD87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA1881775F5D5000FBD87 /* UIKit.framework */; };
+		C78BA18B1775F5D5000FBD87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA18A1775F5D5000FBD87 /* Foundation.framework */; };
+		C78BA18D1775F5D5000FBD87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA18C1775F5D5000FBD87 /* CoreGraphics.framework */; };
+		C78BA1931775F5D5000FBD87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C78BA1911775F5D5000FBD87 /* InfoPlist.strings */; };
+		C78BA1951775F5D5000FBD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C78BA1941775F5D5000FBD87 /* main.m */; };
+		C78BA1991775F5D5000FBD87 /* QCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C78BA1981775F5D5000FBD87 /* QCAppDelegate.m */; };
+		C78BA19B1775F5D5000FBD87 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C78BA19A1775F5D5000FBD87 /* Default.png */; };
+		C78BA19D1775F5D5000FBD87 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C78BA19C1775F5D5000FBD87 /* Default@2x.png */; };
+		C78BA19F1775F5D5000FBD87 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C78BA19E1775F5D5000FBD87 /* Default-568h@2x.png */; };
+		C78BA1A21775F5D5000FBD87 /* QCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78BA1A11775F5D5000FBD87 /* QCFirstViewController.m */; };
+		C78BA1A41775F5D5000FBD87 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C78BA1A31775F5D5000FBD87 /* first.png */; };
+		C78BA1A61775F5D5000FBD87 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C78BA1A51775F5D5000FBD87 /* first@2x.png */; };
+		C78BA1A91775F5D5000FBD87 /* QCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78BA1A81775F5D5000FBD87 /* QCSecondViewController.m */; };
+		C78BA1AB1775F5D5000FBD87 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C78BA1AA1775F5D5000FBD87 /* second.png */; };
+		C78BA1AD1775F5D5000FBD87 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C78BA1AC1775F5D5000FBD87 /* second@2x.png */; };
+		C78BA1B01775F5D5000FBD87 /* QCFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C78BA1AE1775F5D5000FBD87 /* QCFirstViewController.xib */; };
+		C78BA1B31775F5D5000FBD87 /* QCSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C78BA1B11775F5D5000FBD87 /* QCSecondViewController.xib */; };
+		C78BA1BA1775F884000FBD87 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA1B91775F884000FBD87 /* FacebookSDK.framework */; };
+		C78BA1D01775FCCF000FBD87 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA1CF1775FCCF000FBD87 /* Parse.framework */; };
+		C78BA1F7177600F4000FBD87 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C78BA1F5177600F4000FBD87 /* FacebookSDKResources.bundle */; };
+		C78BA1F8177600F4000FBD87 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C78BA1F6177600F4000FBD87 /* FBUserSettingsViewResources.bundle */; };
+		C78BA1FA177603B0000FBD87 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA1F9177603B0000FBD87 /* Accounts.framework */; };
+		C78BA1FC177603BC000FBD87 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA1FB177603BC000FBD87 /* AdSupport.framework */; };
+		C78BA1FE177603C9000FBD87 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA1FD177603C9000FBD87 /* libsqlite3.dylib */; };
+		C78BA200177603D8000FBD87 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA1FF177603D8000FBD87 /* Security.framework */; };
+		C78BA202177603E5000FBD87 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA201177603E5000FBD87 /* Social.framework */; };
+		C78BA2041776048D000FBD87 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA2031776048D000FBD87 /* AudioToolbox.framework */; };
+		C78BA20617760499000FBD87 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA20517760499000FBD87 /* CFNetwork.framework */; };
+		C78BA208177604B0000FBD87 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA207177604B0000FBD87 /* CoreLocation.framework */; };
+		C78BA20A177604BF000FBD87 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA209177604BF000FBD87 /* libz.1.1.3.dylib */; };
+		C78BA20C177604D0000FBD87 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA20B177604D0000FBD87 /* MobileCoreServices.framework */; };
+		C78BA20E177604DF000FBD87 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA20D177604DF000FBD87 /* QuartzCore.framework */; };
+		C78BA210177604EE000FBD87 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA20F177604EE000FBD87 /* StoreKit.framework */; };
+		C78BA212177604F9000FBD87 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78BA211177604F9000FBD87 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C78BA1851775F5D5000FBD87 /* Access_Code_DatingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Access_Code_DatingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78BA1881775F5D5000FBD87 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C78BA18A1775F5D5000FBD87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C78BA18C1775F5D5000FBD87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C78BA1901775F5D5000FBD87 /* Access_Code_DatingApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Access_Code_DatingApp-Info.plist"; sourceTree = "<group>"; };
+		C78BA1921775F5D5000FBD87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C78BA1941775F5D5000FBD87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C78BA1961775F5D5000FBD87 /* Access_Code_DatingApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Access_Code_DatingApp-Prefix.pch"; sourceTree = "<group>"; };
+		C78BA1971775F5D5000FBD87 /* QCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCAppDelegate.h; sourceTree = "<group>"; };
+		C78BA1981775F5D5000FBD87 /* QCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCAppDelegate.m; sourceTree = "<group>"; };
+		C78BA19A1775F5D5000FBD87 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C78BA19C1775F5D5000FBD87 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C78BA19E1775F5D5000FBD87 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C78BA1A01775F5D5000FBD87 /* QCFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCFirstViewController.h; sourceTree = "<group>"; };
+		C78BA1A11775F5D5000FBD87 /* QCFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCFirstViewController.m; sourceTree = "<group>"; };
+		C78BA1A31775F5D5000FBD87 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		C78BA1A51775F5D5000FBD87 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		C78BA1A71775F5D5000FBD87 /* QCSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCSecondViewController.h; sourceTree = "<group>"; };
+		C78BA1A81775F5D5000FBD87 /* QCSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCSecondViewController.m; sourceTree = "<group>"; };
+		C78BA1AA1775F5D5000FBD87 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		C78BA1AC1775F5D5000FBD87 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		C78BA1AF1775F5D5000FBD87 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QCFirstViewController.xib; sourceTree = "<group>"; };
+		C78BA1B21775F5D5000FBD87 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QCSecondViewController.xib; sourceTree = "<group>"; };
+		C78BA1B91775F884000FBD87 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		C78BA1CF1775FCCF000FBD87 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		C78BA1F5177600F4000FBD87 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		C78BA1F6177600F4000FBD87 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		C78BA1F9177603B0000FBD87 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		C78BA1FB177603BC000FBD87 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C78BA1FD177603C9000FBD87 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C78BA1FF177603D8000FBD87 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C78BA201177603E5000FBD87 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		C78BA2031776048D000FBD87 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C78BA20517760499000FBD87 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C78BA207177604B0000FBD87 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C78BA209177604BF000FBD87 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		C78BA20B177604D0000FBD87 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C78BA20D177604DF000FBD87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C78BA20F177604EE000FBD87 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C78BA211177604F9000FBD87 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C78BA1821775F5D5000FBD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78BA212177604F9000FBD87 /* SystemConfiguration.framework in Frameworks */,
+				C78BA210177604EE000FBD87 /* StoreKit.framework in Frameworks */,
+				C78BA20E177604DF000FBD87 /* QuartzCore.framework in Frameworks */,
+				C78BA20C177604D0000FBD87 /* MobileCoreServices.framework in Frameworks */,
+				C78BA20A177604BF000FBD87 /* libz.1.1.3.dylib in Frameworks */,
+				C78BA208177604B0000FBD87 /* CoreLocation.framework in Frameworks */,
+				C78BA18D1775F5D5000FBD87 /* CoreGraphics.framework in Frameworks */,
+				C78BA20617760499000FBD87 /* CFNetwork.framework in Frameworks */,
+				C78BA2041776048D000FBD87 /* AudioToolbox.framework in Frameworks */,
+				C78BA202177603E5000FBD87 /* Social.framework in Frameworks */,
+				C78BA200177603D8000FBD87 /* Security.framework in Frameworks */,
+				C78BA1FE177603C9000FBD87 /* libsqlite3.dylib in Frameworks */,
+				C78BA1FC177603BC000FBD87 /* AdSupport.framework in Frameworks */,
+				C78BA1FA177603B0000FBD87 /* Accounts.framework in Frameworks */,
+				C78BA1891775F5D5000FBD87 /* UIKit.framework in Frameworks */,
+				C78BA18B1775F5D5000FBD87 /* Foundation.framework in Frameworks */,
+				C78BA1BA1775F884000FBD87 /* FacebookSDK.framework in Frameworks */,
+				C78BA1D01775FCCF000FBD87 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C78BA17C1775F5D5000FBD87 = {
+			isa = PBXGroup;
+			children = (
+				C78BA18E1775F5D5000FBD87 /* Access_Code_DatingApp */,
+				C78BA1871775F5D5000FBD87 /* Frameworks */,
+				C78BA1861775F5D5000FBD87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C78BA1861775F5D5000FBD87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C78BA1851775F5D5000FBD87 /* Access_Code_DatingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C78BA1871775F5D5000FBD87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C78BA211177604F9000FBD87 /* SystemConfiguration.framework */,
+				C78BA20F177604EE000FBD87 /* StoreKit.framework */,
+				C78BA20D177604DF000FBD87 /* QuartzCore.framework */,
+				C78BA20B177604D0000FBD87 /* MobileCoreServices.framework */,
+				C78BA209177604BF000FBD87 /* libz.1.1.3.dylib */,
+				C78BA207177604B0000FBD87 /* CoreLocation.framework */,
+				C78BA20517760499000FBD87 /* CFNetwork.framework */,
+				C78BA2031776048D000FBD87 /* AudioToolbox.framework */,
+				C78BA201177603E5000FBD87 /* Social.framework */,
+				C78BA1FF177603D8000FBD87 /* Security.framework */,
+				C78BA1FD177603C9000FBD87 /* libsqlite3.dylib */,
+				C78BA1FB177603BC000FBD87 /* AdSupport.framework */,
+				C78BA1F9177603B0000FBD87 /* Accounts.framework */,
+				C78BA1F5177600F4000FBD87 /* FacebookSDKResources.bundle */,
+				C78BA1F6177600F4000FBD87 /* FBUserSettingsViewResources.bundle */,
+				C78BA1CF1775FCCF000FBD87 /* Parse.framework */,
+				C78BA1B91775F884000FBD87 /* FacebookSDK.framework */,
+				C78BA1881775F5D5000FBD87 /* UIKit.framework */,
+				C78BA18A1775F5D5000FBD87 /* Foundation.framework */,
+				C78BA18C1775F5D5000FBD87 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C78BA18E1775F5D5000FBD87 /* Access_Code_DatingApp */ = {
+			isa = PBXGroup;
+			children = (
+				C78BA1971775F5D5000FBD87 /* QCAppDelegate.h */,
+				C78BA1981775F5D5000FBD87 /* QCAppDelegate.m */,
+				C78BA1A01775F5D5000FBD87 /* QCFirstViewController.h */,
+				C78BA1A11775F5D5000FBD87 /* QCFirstViewController.m */,
+				C78BA1A31775F5D5000FBD87 /* first.png */,
+				C78BA1A51775F5D5000FBD87 /* first@2x.png */,
+				C78BA1A71775F5D5000FBD87 /* QCSecondViewController.h */,
+				C78BA1A81775F5D5000FBD87 /* QCSecondViewController.m */,
+				C78BA1AA1775F5D5000FBD87 /* second.png */,
+				C78BA1AC1775F5D5000FBD87 /* second@2x.png */,
+				C78BA1AE1775F5D5000FBD87 /* QCFirstViewController.xib */,
+				C78BA1B11775F5D5000FBD87 /* QCSecondViewController.xib */,
+				C78BA18F1775F5D5000FBD87 /* Supporting Files */,
+			);
+			path = Access_Code_DatingApp;
+			sourceTree = "<group>";
+		};
+		C78BA18F1775F5D5000FBD87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C78BA1901775F5D5000FBD87 /* Access_Code_DatingApp-Info.plist */,
+				C78BA1911775F5D5000FBD87 /* InfoPlist.strings */,
+				C78BA1941775F5D5000FBD87 /* main.m */,
+				C78BA1961775F5D5000FBD87 /* Access_Code_DatingApp-Prefix.pch */,
+				C78BA19A1775F5D5000FBD87 /* Default.png */,
+				C78BA19C1775F5D5000FBD87 /* Default@2x.png */,
+				C78BA19E1775F5D5000FBD87 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C78BA1841775F5D5000FBD87 /* Access_Code_DatingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78BA1B61775F5D5000FBD87 /* Build configuration list for PBXNativeTarget "Access_Code_DatingApp" */;
+			buildPhases = (
+				C78BA1811775F5D5000FBD87 /* Sources */,
+				C78BA1821775F5D5000FBD87 /* Frameworks */,
+				C78BA1831775F5D5000FBD87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Access_Code_DatingApp;
+			productName = Access_Code_DatingApp;
+			productReference = C78BA1851775F5D5000FBD87 /* Access_Code_DatingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C78BA17D1775F5D5000FBD87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Access;
+			};
+			buildConfigurationList = C78BA1801775F5D5000FBD87 /* Build configuration list for PBXProject "Access_Code_DatingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C78BA17C1775F5D5000FBD87;
+			productRefGroup = C78BA1861775F5D5000FBD87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C78BA1841775F5D5000FBD87 /* Access_Code_DatingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C78BA1831775F5D5000FBD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78BA1931775F5D5000FBD87 /* InfoPlist.strings in Resources */,
+				C78BA19B1775F5D5000FBD87 /* Default.png in Resources */,
+				C78BA19D1775F5D5000FBD87 /* Default@2x.png in Resources */,
+				C78BA19F1775F5D5000FBD87 /* Default-568h@2x.png in Resources */,
+				C78BA1A41775F5D5000FBD87 /* first.png in Resources */,
+				C78BA1A61775F5D5000FBD87 /* first@2x.png in Resources */,
+				C78BA1AB1775F5D5000FBD87 /* second.png in Resources */,
+				C78BA1AD1775F5D5000FBD87 /* second@2x.png in Resources */,
+				C78BA1B01775F5D5000FBD87 /* QCFirstViewController.xib in Resources */,
+				C78BA1B31775F5D5000FBD87 /* QCSecondViewController.xib in Resources */,
+				C78BA1F7177600F4000FBD87 /* FacebookSDKResources.bundle in Resources */,
+				C78BA1F8177600F4000FBD87 /* FBUserSettingsViewResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C78BA1811775F5D5000FBD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78BA1951775F5D5000FBD87 /* main.m in Sources */,
+				C78BA1991775F5D5000FBD87 /* QCAppDelegate.m in Sources */,
+				C78BA1A21775F5D5000FBD87 /* QCFirstViewController.m in Sources */,
+				C78BA1A91775F5D5000FBD87 /* QCSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C78BA1911775F5D5000FBD87 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C78BA1921775F5D5000FBD87 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C78BA1AE1775F5D5000FBD87 /* QCFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C78BA1AF1775F5D5000FBD87 /* en */,
+			);
+			name = QCFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		C78BA1B11775F5D5000FBD87 /* QCSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C78BA1B21775F5D5000FBD87 /* en */,
+			);
+			name = QCSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C78BA1B41775F5D5000FBD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C78BA1B51775F5D5000FBD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C78BA1B71775F5D5000FBD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Access_Code_DatingApp/Access_Code_DatingApp-Prefix.pch";
+				INFOPLIST_FILE = "Access_Code_DatingApp/Access_Code_DatingApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C78BA1B81775F5D5000FBD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Access_Code_DatingApp/Access_Code_DatingApp-Prefix.pch";
+				INFOPLIST_FILE = "Access_Code_DatingApp/Access_Code_DatingApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C78BA1801775F5D5000FBD87 /* Build configuration list for PBXProject "Access_Code_DatingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78BA1B41775F5D5000FBD87 /* Debug */,
+				C78BA1B51775F5D5000FBD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78BA1B61775F5D5000FBD87 /* Build configuration list for PBXNativeTarget "Access_Code_DatingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78BA1B71775F5D5000FBD87 /* Debug */,
+				C78BA1B81775F5D5000FBD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C78BA17D1775F5D5000FBD87 /* Project object */;
+}
